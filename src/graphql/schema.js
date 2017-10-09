@@ -39,6 +39,7 @@ export default `
     createdAt: Date!
     updatedAt: Date!
   }
+  
 
   type Query {
     getTweet(_id: ID!): Tweet
